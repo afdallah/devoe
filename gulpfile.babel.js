@@ -154,6 +154,7 @@ function clean (done) {
 // Browsersync task
 function browserSync () {
   bs.init({
+    logPrefix: 'DEVOE',
     server: {
       baseDir: './'
     }
